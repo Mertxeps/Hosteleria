@@ -1,0 +1,650 @@
+
+	* {
+		margin:0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+
+	body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 80%; 
+		margin: auto;
+	}
+
+	.Container {
+		width: 100%;
+		height: auto;
+		justify-content: center;
+		border: 5px solid black;
+	}
+
+	.Cabecera {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.MenuLogo {
+		display: flex;
+		width: 100%;
+		height: 20%;
+	}
+
+	.logotipo {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		width: 40%;
+		height: 20vh;
+		padding-left: 5px;
+		padding-top: 5px;
+	}
+		
+		.imgLogo{
+			display:flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			font-weight: bold;
+			width: 25%;
+			height: 5vh;
+		}
+
+		.dirLogo {
+			display:flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			font-weight: bold; 
+			font-size: 18px;
+			width: 100%;
+			padding-top: 5%;
+		}
+				
+		.direccion {
+			display:flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			font-weight: normal;
+			width: 100%;
+		}
+
+	.Navegacion{
+		display: flex;
+		flex-grow: 7;
+		width: 60%;
+		height: 20vh;
+	}
+
+	.BarraNav {
+		display: flex;
+		width: 100%;
+		margin: auto;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.Fondo {
+		background-image: url(../Images/Bosque.jpg); 
+		background-size: cover;
+		background-position: center;
+		position: relative;
+		width: 100%;
+		height: 40vh;
+	}
+
+	.Fondo1 {
+		background-image: url(../Images/Agua1.jpg); 
+		background-size: cover;
+		background-position: center;
+		position: relative;
+		width: 100%;
+		height: 40vh;
+	}
+
+	.Bienvenidos {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 40vh;
+	}
+
+	.HijoBienvenidos {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
+		margin: auto;
+		font-weight: 900;
+		font-size: 32px;
+	}
+
+	.ContenedorArticle {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 10px;
+		width: 100%;
+	}
+
+		.articulos {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			width: 70%;
+			height: 100%;
+		}
+		
+				.article {
+					display: flex;
+					flex-direction: row;
+					flex-wrap: wrap;
+					align-items: center;
+					width: 50%;
+					height: 45%;
+				}
+				
+				.Columnas {
+					display: flex;
+					flex-wrap: wrap;
+					flex-direction: row;
+					justify-content: center;
+					align-items: center;
+					overflow: hidden;
+					width: 100%;
+					height: 90%;
+					margin: 15px;
+				}
+				
+				.Contenido img {
+					width: 100%;
+					border-radius: 8px 8px 0 0;
+				}
+				
+				.Tamaño1 {
+					display: flex;
+					flex-wrap: wrap;
+					flex-direction: row;
+					justify-content: center;
+					width: 100%;
+					height: 10%;
+					font-size: 20px;
+					font-weight: bold;
+					color: blueviolet;
+				}
+
+		.Visitas {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 10vh; 
+		}
+
+			.HijoVisitas {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				margin: auto;
+				font-weight: 600;
+				font-size: 32px;
+			}
+
+		.aside {
+			display: flex;
+			flex-direction: column;
+			width: 30%;
+			height: auto;
+			border: 2px solid black;
+			border-radius: 8px;
+		}
+
+			.subOfertas{
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				height: auto;
+			}
+
+				.OfertasExclusivas {
+					display: block;
+					width: 100%;
+					margin: auto;
+				}
+			
+				.Bonos{
+					display: flex;
+					flex-direction: column;
+					width: 100%;
+					height: 100%;
+				}
+
+				.OfertaSubBonos {
+					text-align: center;
+					width: 92%;
+					margin: 20% auto;
+					padding: 10px;
+					font-size: 18px;
+					background-color: lightgray;
+					border: 2px solid black;
+					border-radius: 8px;
+				}
+
+				.Negrita {
+					font-weight: 900;
+				}
+
+	.ContenedorFooter{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 20px;
+		width: 100%;
+		height: 10vh;
+		background-color: black;
+		color: white;
+	}
+
+		.copy{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 50%;
+			height: 70%;
+			background-color: black;
+		}
+
+	/* Hasta un máximo de 1201 me haces lo anterior */
+	@media (min-width: 951px) and (max-width: 1200px) {
+		body {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.Cabecera,
+		.MenuLogo,
+		.logotipo,
+		.Navegacion {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			height: auto;
+		}
+
+		.logotipo,
+		.Navegacion {
+			margin: 3% auto;
+		}
+
+			.imgLogo {
+				margin: 5%;
+			}
+
+			.imgLogo img {
+				flex-direction: column;
+				align-items: center;
+				width: 45%;
+				height: auto;
+				margin: auto;
+			}
+
+			.dirLogo {
+				flex-direction: column;
+				align-items: center;
+				width: 100%;
+				height: auto;
+				margin: auto;
+			}
+
+			.direccion {
+				flex-direction: column;
+				align-items: center;
+				width: 100%;
+				height: auto;
+				margin: auto;
+			}
+
+		.BarraNav {
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			height: auto;
+		}
+
+		.HijoBienvenidos {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin: auto;
+			font-weight: 900;
+			font-size: 24px;
+		}
+
+		.ContenedorArticle {
+			width: 100;
+			height: auto;
+			margin: auto;
+		}
+		
+		.articulos {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			width: 100%;
+			height: 100%;
+		}
+
+		.aside {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			width: 100%;
+			height: auto;
+			border: 2px solid black;
+			border-radius: 8px;
+		}
+
+		.subOfertas{
+			display: flex;
+			flex-direction: column;
+			width: 60%;
+			height: auto;
+			margin: auto;
+		}
+		
+		.Tamaño1 {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: center;
+			width: 100%;
+			height: 10%;
+			font-size: 12px;									/* antes estaba en 20px */
+			font-weight: bold;
+			color: blueviolet;
+		}
+
+		.ContenedorFooter {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+			height: auto;
+			margin: auto;
+		}
+
+		.copy {
+			text-align: center;
+		}
+
+	}
+
+	@media (min-width: 301px) and (max-width: 950px) {
+		
+		body {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.Cabecera,
+		.MenuLogo,
+		.logotipo,
+		.Navegacion {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			height: auto;
+			margin: auto;
+		}
+
+		.logotipo,
+		.Navegacion {
+			margin: 3% auto;
+		}
+
+		.imgLogo {
+			margin: 5%;
+		}
+
+		.imgLogo img {
+			flex-direction: column;
+			align-items: center;
+			width: 50%;
+			height: auto;
+			margin: auto;
+		}
+
+		.dirLogo {
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			height: auto;
+			margin: auto;
+		}
+
+		.direccion {
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			height: auto;
+			margin: auto;
+		}
+
+		.BarraNav {
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			height: auto;
+		}
+
+		.HijoBienvenidos {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin: auto;
+			font-weight: 900;
+			font-size: 16px;
+		}
+
+		.ContenedorArticle {
+			width: 100;
+			height: auto;
+			margin: auto;
+		}
+
+		.articulos {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+		}
+
+		.article,
+		.Columnas {
+			width: 100;
+			height: auto;
+			margin: 2% auto;
+		}
+
+		.Contenido {
+			display: flex;
+			width: 100%;
+			height: auto;
+			margin: auto;
+		}
+
+		.Tamaño1 {
+			display: none;
+		}
+		
+		.HijoVisitas {
+			font-size: 24px;
+		}
+
+		.aside {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			width: 100%;
+			height: auto;
+			border: 2px solid black;
+			border-radius: 8px;
+		}
+
+		.ContenedorFooter {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+			height: auto;
+			margin: auto;
+		}
+
+		.copy {
+			text-align: center;
+		}
+	}
+
+	@media (max-width: 300px) {
+		
+		body {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.Cabecera,
+		.MenuLogo,
+		.logotipo,
+		.Navegacion {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			height: auto;
+		}
+
+		.logotipo,
+		.Navegacion {
+			margin: 3% auto;
+		}
+
+			.imgLogo {
+				margin: 5%;
+			}
+
+			.imgLogo img {
+				flex-direction: column;
+				align-items: center;
+				width: 80%;
+				height: auto;
+				margin: auto;
+			}
+
+			.dirLogo {
+				flex-direction: column;
+				align-items: center;
+				width: 100%;
+				height: auto;
+				margin: auto;
+			}
+
+			.direccion {
+				flex-direction: column;
+				align-items: center;
+				width: 100%;
+				height: auto;
+				margin: auto;
+			}
+
+		.BarraNav {
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			height: auto;
+		}
+
+		.HijoBienvenidos {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin: auto;
+			font-weight: 900;
+			font-size: 16px;
+		}
+
+		.ContenedorArticle {
+			width: 100;
+			height: auto;
+			margin: auto;
+		}
+
+		.articulos {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+		}
+
+		.article,
+		.Columnas {
+			width: 100;
+			height: auto;
+			margin: 2% auto;
+		}
+
+		.Contenido {
+			display: flex;
+			width: 100%;
+			height: auto;
+			margin: auto;
+		}
+
+		.Tamaño1 {
+			display: none;
+		}
+
+		.HijoVisitas {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin: auto;
+			font-weight: 600;
+			font-size: 20px;
+		}
+
+		.aside {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			width: 100%;
+			height: auto;
+			border: 2px solid black;
+			border-radius: 8px;
+		}
+
+		.ContenedorFooter {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+			height: auto;
+			margin: auto;
+		}
+
+		.copy {
+			text-align: center;
+		}
+	}
+	

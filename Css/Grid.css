@@ -1,0 +1,146 @@
+		
+	.Instalaciones {
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 40vh;
+	}
+
+		.HijoInstalaciones {
+			display: grid;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin: auto;
+			font-weight: 900;
+			font-size: 32px;
+		}
+
+	.ContenedorGridArticle {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		justify-content: center;
+		overflow: hidden;
+		width: 100%;
+		height: auto;
+		margin: auto;
+		padding: 20px;
+		gap: 1em;
+	}
+
+		.Contenido {
+			display: grid;
+			justify-content: center;
+			width: 100%;
+			height: 100%;
+		}
+
+		.Imagen1 {
+			grid-column: 1/2;
+			grid-row: 1/2;
+			width: 100%;
+			height: auto;
+		}
+		.Imagen2 {
+			grid-column: 2/3;
+			grid-row: 1/2;
+			width: 100%;
+			height: auto;
+		}
+
+		.Imagen3 {
+			grid-column: 1/2;
+			grid-row: 2/3;
+			width: 100%;
+			height: auto;
+		}
+		
+		.Imagen4 {
+			grid-column: 2/3;
+			grid-row: 2/3;
+			width: 100%;
+			height: auto;
+		}
+
+		.Aside {
+			grid-column: 3/4;
+			grid-row: 1/3;
+			width: 100%;
+			height: 100%;
+			border: 2px solid black;
+			border-radius: 8px;
+			padding: 5px;
+		}
+	
+	.Visitas {
+		font-weight: 900;
+		font-size: 32px;
+	}
+
+	@media (min-width: 401) and (max-width: 1030px) {
+		.Visitas {
+			display: grid;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: auto;
+			font-size: 12px;
+		}
+	}
+	
+	@media (max-width: 400px) {
+		
+		.HijoInstalaciones {
+			display: grid;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin: auto;
+			font-weight: 900;
+			font-size: 24px;
+		}
+		
+		.Imagen1 {
+			grid-column: 2/3;
+			grid-row: 1/2;
+			width: 100%;
+			height: auto;
+		}
+		
+		.Imagen2 {
+			grid-column: 2/3;
+			grid-row: 2/3;
+			width: 100%;
+			height: auto;
+		}
+
+		.Imagen3 {
+			grid-column: 2/3;
+			grid-row: 3/4;
+			width: 100%;
+			height: auto;
+		}
+			
+		.Imagen4 {
+			grid-column: 2/3;
+			grid-row: 4/5;
+			width: 100%;
+			height: auto;
+		}
+
+		.Aside {
+			grid-column: 2/3;
+			grid-row: 5/6;
+			width: 100%;
+			height: 100%;
+			border: 2px solid black;
+			border-radius: 8px;
+			padding: 5px;
+		}
+		
+		.Visitas {
+			display: none;
+		}
+	}
