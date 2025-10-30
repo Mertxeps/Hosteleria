@@ -43,32 +43,32 @@
 		padding-top: 5px;
 	}
 		
-		.imgLogo{
-			display:flex;
-			flex-wrap: wrap;
-			flex-direction: row;
-			font-weight: bold;
-			width: 25%;
-			height: 5vh;
-		}
+	.imgLogo{
+		display:flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		font-weight: bold;
+		width: 25%;
+		height: 5vh;
+	}
 
-		.dirLogo {
-			display:flex;
-			flex-wrap: wrap;
-			flex-direction: row;
-			font-weight: bold; 
-			font-size: 18px;
-			width: 100%;
-			padding-top: 5%;
-		}
+	.dirLogo {
+		display:flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		font-weight: bold; 
+		font-size: 18px;
+		width: 100%;
+		padding-top: 5%;
+	}
 				
-		.direccion {
-			display:flex;
-			flex-wrap: wrap;
-			flex-direction: row;
-			font-weight: normal;
-			width: 100%;
-		}
+	.direccion {
+		display:flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		font-weight: normal;
+		width: 100%;
+	}
 
 	.Navegacion{
 		display: flex;
