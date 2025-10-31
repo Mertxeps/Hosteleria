@@ -43,32 +43,32 @@
 		padding-top: 5px;
 	}
 		
-		.imgLogo{
-			display:flex;
-			flex-wrap: wrap;
-			flex-direction: row;
-			font-weight: bold;
-			width: 25%;
-			height: 5vh;
-		}
+	.imgLogo{
+		display:flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		font-weight: bold;
+		width: 25%;
+		height: 5vh;
+	}
 
-		.dirLogo {
-			display:flex;
-			flex-wrap: wrap;
-			flex-direction: row;
-			font-weight: bold; 
-			font-size: 18px;
-			width: 100%;
-			padding-top: 5%;
-		}
+	.dirLogo {
+		display:flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		font-weight: bold; 
+		font-size: 18px;
+		width: 100%;
+		padding-top: 5%;
+	}
 				
-		.direccion {
-			display:flex;
-			flex-wrap: wrap;
-			flex-direction: row;
-			font-weight: normal;
-			width: 100%;
-		}
+	.direccion {
+		display:flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		font-weight: normal;
+		width: 100%;
+	}
 
 	.Navegacion{
 		display: flex;
@@ -130,113 +130,113 @@
 		width: 100%;
 	}
 
-		.articulos {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			width: 70%;
-			height: 100%;
-		}
+	.articulos {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 70%;
+		height: 100%;
+	}
 		
-				.article {
-					display: flex;
-					flex-direction: row;
-					flex-wrap: wrap;
-					align-items: center;
-					width: 50%;
-					height: 45%;
-				}
+	.article {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		width: 50%;
+		height: 45%;
+	}
 				
-				.Columnas {
-					display: flex;
-					flex-wrap: wrap;
-					flex-direction: row;
-					justify-content: center;
-					align-items: center;
-					overflow: hidden;
-					width: 100%;
-					height: 90%;
-					margin: 15px;
-				}
+	.Columnas {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+		width: 100%;
+		height: 90%;
+		margin: 15px;
+	}
 				
-				.Contenido img {
-					width: 100%;
-					border-radius: 8px 8px 0 0;
-				}
+	.Contenido img {
+		width: 100%;
+		border-radius: 8px 8px 0 0;
+	}
 				
-				.Tamaño1 {
-					display: flex;
-					flex-wrap: wrap;
-					flex-direction: row;
-					justify-content: center;
-					width: 100%;
-					height: 10%;
-					font-size: 20px;
-					font-weight: bold;
-					color: blueviolet;
-				}
+	.Tamaño1 {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		width: 100%;
+		height: 10%;
+		font-size: 20px;
+		font-weight: bold;
+		color: blueviolet;
+	}
 
-		.Visitas {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			width: 100%;
-			height: 10vh; 
-		}
+	.Visitas {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 10vh; 
+	}
 
-			.HijoVisitas {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				width: 100%;
-				margin: auto;
-				font-weight: 600;
-				font-size: 32px;
-			}
+	.HijoVisitas {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin: auto;
+		font-weight: 600;
+		font-size: 32px;
+	}
 
-		.aside {
-			display: flex;
-			flex-direction: column;
-			width: 30%;
-			height: auto;
-			border: 2px solid black;
-			border-radius: 8px;
-		}
+	.aside {
+		display: flex;
+		flex-direction: column;
+		width: 30%;
+		height: auto;
+		border: 2px solid black;
+		border-radius: 8px;
+}
 
-			.subOfertas{
-				display: flex;
-				flex-direction: column;
-				width: 100%;
-				height: auto;
-			}
+	.subOfertas{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+	}
 
-				.OfertasExclusivas {
-					display: block;
-					width: 100%;
-					margin: auto;
-				}
+	.OfertasExclusivas {
+		display: block;
+		width: 100%;
+		margin: auto;
+	}
 			
-				.Bonos{
-					display: flex;
-					flex-direction: column;
-					width: 100%;
-					height: 100%;
-				}
+	.Bonos{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+	}
 
-				.OfertaSubBonos {
-					text-align: center;
-					width: 92%;
-					margin: 20% auto;
-					padding: 10px;
-					font-size: 18px;
-					background-color: lightgray;
-					border: 2px solid black;
-					border-radius: 8px;
-				}
+	.OfertaSubBonos {
+		text-align: center;
+		width: 92%;
+		margin: 20% auto;
+		padding: 10px;
+		font-size: 18px;
+		background-color: lightgray;
+		border: 2px solid black;
+		border-radius: 8px;
+	}
 
-				.Negrita {
-					font-weight: 900;
-				}
+	.Negrita {
+		font-weight: 900;
+	}
 
 	.ContenedorFooter{
 		display: flex;
@@ -249,14 +249,14 @@
 		color: white;
 	}
 
-		.copy{
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			width: 50%;
-			height: 70%;
-			background-color: black;
-		}
+	.copy{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
+		height: 70%;
+		background-color: black;
+	}
 
 	/* Hasta un máximo de 1201 me haces lo anterior */
 	@media (min-width: 951px) and (max-width: 1200px) {
@@ -366,7 +366,7 @@
 			justify-content: center;
 			width: 100%;
 			height: 10%;
-			font-size: 12px;									/* antes estaba en 20px */
+			font-size: 12px;			/* antes estaba en 20px */
 			font-weight: bold;
 			color: blueviolet;
 		}
