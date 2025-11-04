@@ -86,7 +86,7 @@
 	}
 
 	.Fondo {
-		background-image: url(../Images/Bosque.jpg); 
+		background-image: url(../Images/Bosque.JPG); 
 		background-size: cover;
 		background-position: center;
 		position: relative;
@@ -95,7 +95,7 @@
 	}
 
 	.Fondo1 {
-		background-image: url(../Images/Agua1.jpg); 
+		background-image: url(../Images/Agua1.JPG); 
 		background-size: cover;
 		background-position: center;
 		position: relative;
