@@ -1,4 +1,3 @@
-
 	* {
 		margin:0px;
 		padding: 0px;
@@ -86,7 +85,7 @@
 	}
 
 	.Fondo {
-		background-image: url(../Images/Bosque.JPG); 
+		background-image: url(../Images/Bosque.jpg); 
 		background-size: cover;
 		background-position: center;
 		position: relative;
@@ -95,7 +94,7 @@
 	}
 
 	.Fondo1 {
-		background-image: url(../Images/Agua1.JPG); 
+		background-image: url(../Images/Agua1.jpg); 
 		background-size: cover;
 		background-position: center;
 		position: relative;
