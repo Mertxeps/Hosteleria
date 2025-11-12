@@ -91,7 +91,6 @@
 	}
 	
 	@media (max-width: 400px) {
-		
 		.HijoInstalaciones {
 			display: grid;
 			justify-content: center;
